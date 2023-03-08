@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.index{
+    margin: 0px;
+    background-color: #003567;
+    width: auto;
+    height: 115px;
+}
+
+.logo{
+    width: 230px;
+    height: 70px;
+    cursor: pointer;
+}
+
+img{ 
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.lista1 ul{
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+.lista1 ul li{
+   display:inline-block;
+   padding-left: 25px;
+   cursor: pointer;
+   color: aliceblue;
+   margin-top: 15px;
+   height: 100%;
+   display:inline-block;
+   transition: 0.7s;
+   font-family: roboto;
+}
+
+.lista1 ul li:hover{
+    color: darkgray;
+    transition: 0.7s;
+}
